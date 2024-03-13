@@ -1,0 +1,4 @@
+视频的时长:47984611
+封装格式名mpegts
+封装长格式名MPEG-TS (MPEG-2 Transport Stream)
+视频的宽高640*272

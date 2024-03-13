@@ -1,0 +1,11 @@
+﻿  main.cpp
+main.obj : error LNK2019: 无法解析的外部符号 avcodec_configuration，函数 main 中引用了该符号
+D:\qtprojects\testffmpeg\testffmpeg\lib\avcodec.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\avdevice.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\avfilter.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\avformat.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\avutil.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\postproc.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\swresample.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\testffmpeg\lib\swscale.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\x64\Debug\testffmpeg.exe : fatal error LNK1120: 1 个无法解析的外部命令

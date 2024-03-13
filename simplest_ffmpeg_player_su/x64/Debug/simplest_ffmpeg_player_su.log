@@ -1,0 +1,45 @@
+﻿  simplest_ffmpeg_player_su.cpp
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(67,16): warning C4018: “<”: 有符号/无符号不匹配
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(90,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(90,9): message : 请考虑在格式字符串中使用“%lld”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(90,9): message : 请考虑在格式字符串中使用“%Id”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(90,9): message : 请考虑在格式字符串中使用“%I64d”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(96,14): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(96,14): message : 请考虑在格式字符串中使用“%lld”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(96,14): message : 请考虑在格式字符串中使用“%Id”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(96,14): message : 请考虑在格式字符串中使用“%I64d”
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(95,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(124,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(125,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\simplest_ffmpeg_player_su.cpp(40,6): warning C4101: “y_size”: 未引用的局部变量
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_malloc，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_frame_alloc，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_frame_free，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avcodec_open2，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avcodec_close，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_free_packet，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avcodec_find_decoder，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avcodec_decode_video2，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avpicture_fill，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avpicture_get_size，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avformat_network_init，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avformat_alloc_context，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avformat_open_input，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avformat_find_stream_info，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_read_frame，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 avformat_close_input，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 av_dump_format，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 sws_freeContext，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 sws_getContext，函数 main 中引用了该符号
+simplest_ffmpeg_player_su.obj : error LNK2019: 无法解析的外部符号 sws_scale，函数 main 中引用了该符号
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\avcodec.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\avdevice.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\avfilter.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\avformat.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\avutil.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\postproc.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\swresample.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\swscale.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\x86\SDL2.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\simplest_ffmpeg_player_su\lib\x86\SDL2main.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\qtprojects\testffmpeg\x64\Debug\simplest_ffmpeg_player_su.exe : fatal error LNK1120: 20 个无法解析的外部命令
